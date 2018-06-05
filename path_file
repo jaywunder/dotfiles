@@ -1,0 +1,10 @@
+ /usr/local/bin
+:/usr/local/sbin
+:/bin
+:/sbin
+:/usr/sbin
+:/usr/bin
+:/usr/local/git/bin
+:/Users/jacob/.cargo/bin
+:/usr/local/heroku/bin
+:/Users/jacob/bin

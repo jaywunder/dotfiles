@@ -1,0 +1,310 @@
+"*":
+  Hydrogen: {}
+  "Remote-FTP":
+    autoUploadOnSave: "only when connected"
+    hideLocalWhenDisplayed: true
+  Zen: {}
+  achievements: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7b3f079c-a1a6-4f0a-980b-1f9c97b94292"
+  "atom-css-comb": {}
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnType: false
+    "atom-ide-datatip": {}
+    "atom-ide-debugger": {}
+    "atom-ide-diagnostics-ui":
+      useExperimentalUi: true
+    "atom-ide-find-references":
+      defaultLocationForPane: "right"
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+    use: {}
+  "atom-lint": {}
+  "atom-package-deps":
+    ignored: []
+  "atom-pair": {}
+  "atom-ternjs": {}
+  "autoclose-html": {}
+  "autocomplete-java":
+    classpathFilePath: ".classpath-atom"
+    javaHome: "/usr/bin"
+  "autocomplete-plus":
+    autoActivationDelay: 10
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+      ".gitignore"
+      ""
+    ]
+    scopeBlacklist: [
+      ".text.plain"
+      ".string"
+      ".comment"
+    ]
+    suggestionListFollows: "Word"
+  "autocomplete-python":
+    useSnippets: "all"
+  "bracket-matcher": {}
+  core:
+    allowPendingPaneItems: false
+    audioBeep: false
+    customFileTypes:
+      "source.lalrpop": [
+        ".rs"
+      ]
+    debugLSP: true
+    disabledPackages: [
+      "atom-html-preview"
+      "mobile-preview"
+      "preview-plus"
+      "save-session"
+      "atom-compile-coffee"
+      "autoclose-html"
+      "atom-lint"
+      "autocomplete-paths"
+      "Hydrogen"
+      "lisp-paredit"
+      "vue-snippets"
+      "atom-mermaid"
+      "atom-beautify"
+      "linter-coffeelint"
+      "linter-javac"
+      "language-todo"
+      "autocomplete-python"
+      "atom-pair"
+      "node-debugger"
+      "racer"
+      "ide-typescript"
+      "linter-jshint"
+      "atom-uhh"
+      "tokamak"
+      "tokamak-terminal"
+      "linter"
+      "linter-ui-default"
+      "linter-eslint"
+      "atom-ternjs"
+      "linter-rust"
+      "linter-pycodestyle"
+      "ide-java"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".DS_Store"
+      "*.pyc"
+      "*.dSYM"
+      "._*"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/Users/jacob/Documents/"
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 20
+    invisibles: {}
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "a5f37504-a0c9-cbc9-22fd-a5af5a10be42"
+  "file-types":
+    "\\.lalrpop$": "source.rust"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "ide-flow":
+    flowPath: "/usr/local/bin/flow"
+  "ide-java":
+    javaHome: "/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/"
+  "ide-rust": {}
+  "isotope-light-ui": {}
+  "isotope-ui": {}
+  "jsdoc-generator": {}
+  jshint:
+    supportLintingJsx: true
+  "languageserver-rust":
+    rustup: "/Users/jacob/.cargo/bin/rustup"
+  linter:
+    showHighlighting: true
+    statusBar: "Show error of the selected line"
+    subtleLinterErrors: [
+      "jshint"
+      "stylint"
+      "pep8"
+    ]
+  "linter-clang":
+    executablePath: "clang++"
+  "linter-cpplint":
+    executablePath: "/usr/local/bin/cpplint"
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+    eslintrcPath: "/Users/jacob/.eslintrc"
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "linter-flow": {}
+  "linter-gcc":
+    execPath: "/usr/local/Cellar/gcc/7.2.0/bin/gcc-7"
+    gccErrorLimit: -1
+    gccIncludePaths: ".,src,-."
+    gccLintOnTheFly: true
+  "linter-javac":
+    classpath: "/Users/jacob/Documents/El-Savaje-2016/.classpath"
+    javaExecutablePath: "/usr/bin/javac"
+  "linter-js-standard":
+    showEslintRules: true
+  "linter-jshint":
+    lintInlineJavaScript: true
+    lintJSXFiles: true
+  "linter-lua": {}
+  "linter-luacheck": {}
+  "linter-pep8":
+    convertAllErrorsToWarnings: false
+    ignoreErrorCodes: [
+      "E221"
+      "W291"
+      "E201"
+      "E501"
+      "E302"
+      "W292"
+      "E303"
+      "W293"
+      "W391"
+      "E701"
+    ]
+  "linter-php":
+    executablePath: "/usr/local/bin/php"
+  "linter-pycodestyle":
+    convertAllErrorsToWarnings: false
+    ignoreErrorCodes: [
+      "E501"
+      "E701"
+      "W293"
+      "E303"
+      "E305"
+    ]
+  "linter-rust":
+    cargoCommand: "check"
+    cargoPath: "/Users/jacob/.cargo/bin/cargo"
+    disabledWarnings: [
+      "#29722"
+    ]
+    rustcPath: "/Users/jacob/.cargo/bin/rustc"
+  "linter-stylint": {}
+  "linter-ui-default":
+    panelHeight: 69
+  "lisp-paredit":
+    enabled: false
+  "merge-conflicts": {}
+  minimap:
+    absoluteMode: true
+    plugins:
+      "my-minimap-plugin": false
+  "node-debugger":
+    nodePath: "/Users/jacob/.nvm/versions/node/v7.2.1/bin/node"
+  nuclide:
+    remoteProjectsConfig: []
+  "one-dark-ui":
+    tabSizing: "Even"
+  "one-light-ui": {}
+  pigments:
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    ignoredScopes: [
+      "\\.comment"
+    ]
+  preview:
+    _analyticsUserId: "475452f4-2d00-4287-8092-d39f19e2d783"
+  "preview-plus":
+    htmlp: true
+    livePreview: true
+  racer:
+    racerBinPath: "/Users/jacob/.cargo/bin/racer"
+    rustSrcPath: "/Users/jacob/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src"
+  "save-session":
+    dataSaveFolder: "/Users/jacob/.atom/packages/save-session/projects"
+    fullScreen: false
+    project: "/Users/jacob/Documents/Defender"
+    windowHeight: 780
+    windowWidth: 1280
+    windowX: 0
+    windowY: 23
+  script:
+    stopOnRerun: true
+  "svg-preview": {}
+  tabs: {}
+  term2: {}
+  term3:
+    fontFamily: "menlo"
+    fontSize: "16"
+  "terminal-panel": {}
+  "terminal-status": {}
+  tokamak:
+    cargoBinPath: "/Users/jacob/.cargo/bin/cargo"
+    racerBinPath: "/Users/jacob/.cargo/bin/racer"
+    rustcBinPath: "/Users/jacob/.cargo/bin/rustc"
+    toolBinPath: "/Users/jacob/.cargo/bin/rustup"
+  "tool-bar":
+    visible: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".attribute-values.js.jsx.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".babel.regexp.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".css.source.styled":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".css.source.stylus":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".html.text.vue":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.jsx.react.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.jsx.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.regexp.replacement.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.regexp.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".js.source.subtlegradient":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".languagebabel.ttlextension":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".lisp.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".newlisp.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".nimrod.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".rust.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".scheme.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".source.stylus":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "
+".source.vbs":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%*|+=[]{}`? "

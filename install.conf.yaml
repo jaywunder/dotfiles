@@ -1,0 +1,19 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.atom/config.cson: atom/config.cson
+    ~/.atom/init.coffee: atom/init.coffee
+    ~/.atom/keymap.cson: atom/keymap.cson
+    ~/.atom/projects.cson: atom/projects.cson
+    ~/.atom/snippets.cson: atom/snippets.cson
+    ~/.atom/styles.less: atom/styles.less
+    ~/.bash_profile: bash_profile
+    ~/.path_file: path_file
+    ~/.aesthetic: aesthetic
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]

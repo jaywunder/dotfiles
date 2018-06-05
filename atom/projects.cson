@@ -1,0 +1,29 @@
+"jaywunder.github.io":
+  title: "jaywunder.github.io"
+  paths: [
+    "/Users/JacobWunder/Documents/arcade-rs"
+    "/Users/JacobWunder/Documents/ai-learn"
+  ]
+"cylon-bluetooth":
+  title: "cylon-bluetooth"
+  paths: [
+    "/Users/JacobWunder/Documents/cylon-bluetooth"
+  ]
+blag:
+  title: "blag"
+  paths: [
+    "/Users/JacobWunder/Documents/jay-blog"
+    "/Users/JacobWunder/Documents/jaywunder.github.io"
+    "/Users/JacobWunder/Documents/arcade-rs"
+    "/Users/JacobWunder/Documents/eren-land"
+  ]
+".atom":
+  title: ".atom"
+  paths: [
+    "/Users/JacobWunder/.atom"
+  ]
+"mp.txt":
+  title: "mp.txt"
+  paths: [
+    "/Users/JacobWunder/Documents/mp.txt"
+  ]
